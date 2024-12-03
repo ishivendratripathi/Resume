@@ -1,0 +1,126 @@
+.container {
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  --grey: 0 0 51%;
+}
+
+.container h2 {
+  font-size: 1.165rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.layout {
+  width: 100%;
+  min-height: 1123px;
+}
+
+.profileSection {
+  margin-bottom: 4rem;
+}
+
+.contactSection {
+  margin-bottom: 4rem;
+}
+
+.leftColumn,
+.rightColumn {
+  padding-right: 2.375rem;
+  padding-left: 2.375rem;
+  padding-top: 3.375rem;
+  padding-bottom: 2.375rem;
+  flex: 1;
+  box-sizing: border-box;
+  min-height: 1123px;
+}
+
+.name {
+  font-family: "Montserrat";
+  font-size: 2.625rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.688rem;
+}
+
+.contactItem svg {
+  margin-right: 0.5rem;
+  width: 1.375rem;
+  height: 1.375rem;
+  color: hsl(var(--grey));
+}
+
+.contactItem p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.educationItem {
+  margin-bottom: 0.875rem;
+}
+
+.institution {
+  font-weight: 600;
+}
+
+.date {
+  color: hsl(var(--grey));
+}
+
+.columnDivider {
+  margin-top: 3.375rem;
+  margin-bottom: 2.375rem;
+  width: 1px;
+  background-color: #bdbdbd;
+}
+
+.workItem {
+  margin-bottom: 1.25rem;
+}
+
+.company,
+.positionAndDate {
+  font-weight: 600;
+  letter-spacing: 0em;
+}
+
+.positionAndDate {
+  margin-bottom: 1rem;
+}
+
+.responsibilities {
+  list-style-type: disc;
+  box-sizing: border-box;
+  margin-left: 1.5em;
+  line-height: 1.25rem;
+}
+
+.item {
+  margin-bottom: 0.5rem;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #bdbdbd;
+  margin-bottom: 1.25rem;
+}

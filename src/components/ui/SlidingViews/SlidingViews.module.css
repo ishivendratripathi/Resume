@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  width: 200%; /* Double the container width to accommodate both views */
+}
+
+.view {
+  width: 50%; /* Each view takes half of the slider width, which results in full container width */
+  flex-shrink: 0;
+  padding-right: 4px;
+  padding-left: 4px; /* Prevent any potential pixel rounding issues */
+  padding-bottom: 4px;
+  box-sizing: border-box;
+}

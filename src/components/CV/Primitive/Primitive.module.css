@@ -1,0 +1,58 @@
+.container {
+  width: 794px;
+  min-width: 794px;
+  max-width: 794px;
+  height: 1123px;
+  min-height: 1123px;
+  max-height: 1123px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  box-sizing: border-box;
+  color: black;
+}
+
+.heading1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.container h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.layout {
+  display: flex;
+  width: 100%;
+}
+
+.layout > * + * {
+  box-sizing: border-box;
+}
+
+.rowVariant {
+  flex-direction: row;
+}
+
+.columnVariant {
+  flex-direction: column;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.default {
+  padding: 0;
+}
+
+.compact {
+  padding: 0.5rem;
+}
+
+.spacious {
+  padding: 2rem;
+}

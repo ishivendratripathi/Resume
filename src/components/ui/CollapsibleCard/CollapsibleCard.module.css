@@ -1,0 +1,16 @@
+.collapsibleCard {
+  width: 100%;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+.cardTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collapsibleWrapper {
+  max-height: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
